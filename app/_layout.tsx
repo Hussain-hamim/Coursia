@@ -62,7 +62,7 @@ export default function RootLayout() {
         <Stack.Screen name="course-details" />
         <Stack.Screen name="+not-found" />
       </Stack>
-      <StatusBar style="auto" />
+      <StatusBar style="light" backgroundColor="#7c6ff5" />
     </>
   );
 }

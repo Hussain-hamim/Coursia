@@ -1,20 +1,32 @@
 {
   "expo": {
-    "name": "bolt-expo-nativewind",
+    "name": "Coursia",
     "slug": "bolt-expo-nativewind",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/coursia-logo.png",
+    "splash": {
+      "image": "./assets/images/coursia-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "statusBar": {
+        "barStyle": "light-content"
+      }
     },
     "android": {
       "package": "com.coursesapp.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/coursia-logo.png",
+        "backgroundColor": "#7c6ff5"
+      },
+      "statusBar": {
+        "barStyle": "light-content",
         "backgroundColor": "#7c6ff5"
       }
     },
